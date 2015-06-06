@@ -56,19 +56,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: #263238;
+    text-align: center;
+}
 
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 
+.ghost {
+    width: 1px;
+    margin-left: -1px;
+    height: 100%;
+}
 
+.logo, .ghost {
+    vertical-align: middle;
+    display: inline-block;
+}
 
-
-
-
-
-
-
-
-
-
+.logo {
+    width: 60%;
+}
 
 /* ==========================================================================
    Media Queries
